@@ -12,12 +12,12 @@ const introdata = {
         third: "Front-end Expert",
     },
     description: "  I bring a strong technical foundation and a passion for leadership.",
-    your_img_url: "https://i.ibb.co/QNqPhZb/photo.jpg",
+    your_img_url: "https://i.postimg.cc/mZ3zmCY0/1675155732143.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about my self",
+    aboutme: "Results-oriented Full Stack Developer with a proven track record of delivering high-quality, end-to-end web solutions. Equipped with acomprehensive skill set spanning front-end and back-end technologies"
 };
 const worktimeline = [{
         jobtitle: "Full-Stack developing",
@@ -56,28 +56,44 @@ const skills = [{
 
 const services = [{
         title: "React.Js Website",
-        description: "",
+        description: "Experienced React.js Developer with a proven track record of delivering high-quality web services. Proficient in utilizing React.js to create dynamic and responsive user interfaces.",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Passionate React Native developer with a proven track record of creating dynamic and user-friendly mobile applications. Skilled in crafting responsive and efficient UI components, integrating APIs, and optimizing performance.",
     },
     {
         title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Developing different unique and creative designs in wordpress and using different plugins",
     },
 ];
 
 const dataportfolio = [{
         img: "https://i.ibb.co/d0KhvM4/weather.png",
         description: "My first html,css,javascrpit and API based web application for weather forcast",
-        link: "#",
+        link: "https://github.com/rehanshaikh55/weather_website",
     },
     {
         img: "https://i.ibb.co/886HBFr/spotify.png",
         description: " My approach to building a Spotify-like app using React Native and a backend API.",
         link: "#",
     },
+    {
+        img: "https://i.ibb.co/phw6Ncq/20240120-232251-0000.png",
+        description: " My First flutter application of language translator with google translator",
+        link: "https://github.com/rehanshaikh55/Language-translator",
+    },
+    {
+        img: "https://i.ibb.co/9sH3RqK/photo1707851902.jpg",
+        description: "React native fully functional food delivery app with location access and database of supabase and different expo libreries",
+        link: "https://github.com/rehanshaikh55/FoodFinder",
+    },
+    {
+        img: "https://i.ibb.co/DKv0Rfn/Screenshot-2024-02-28-215830.png",
+        description: " Indulge your senses in our visually captivating restaurant website. Immerse yourself in a seamless blend of stunning design and user-friendly interface, enhancing your dining experience even before you arrive.",
+        link: "https://github.com/rehanshaikh55/hostpot-restaurant",
+    },
+    
   
 ];
 
@@ -85,11 +101,10 @@ const contactConfig = {
     YOUR_EMAIL: "shaikhrehan1016@gmail.com",
     YOUR_FONE: "+91 9173488443",
     description: " ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_ey8W99o",
-    YOUR_TEMPLATE_ID: "32Ml6NQTLn24M88jf",
-    YOUR_USER_ID: "user_id",
+  
+    YOUR_SERVICE_ID: "service_ey8w99o",
+    YOUR_TEMPLATE_ID: "template_kc1epwo",
+    YOUR_USER_ID: "xy6YIK-c5NikpeHQu",
 };
 
 const socialprofils = {
