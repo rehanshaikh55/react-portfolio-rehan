@@ -7,6 +7,15 @@ import { Link } from "react-router-dom";
 import resume from "../../assets/Rehans-resume.pdf"
 
 export const Home = () => {
+  const onButtonClick = () => {
+    const pdfUrl = {resume};
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "Rehans-resume.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -56,7 +65,7 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link download={resume}>
+                  <Link onClick={onButtonClick}>
                     <div id="button_p" className="ac_btn btn">
                        My Resume
                       <div className="ring one"></div>
