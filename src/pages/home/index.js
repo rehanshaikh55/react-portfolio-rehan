@@ -65,14 +65,14 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link onClick={onButtonClick}>
-                    <div id="button_p" className="ac_btn btn">
+                  <a href="https://drive.google.com/file/d/1-m_1kLeVEkieKbkoxnUdAC9jB63yjLgE/view?usp=drive_link">
+                    <div id="button_h" className="ac_btn btn">
                        My Resume
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
