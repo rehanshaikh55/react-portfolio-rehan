@@ -10,7 +10,6 @@
 .po_item {
     display: flex;
     flex-direction: row;
-    
     width: 100%;
     text-align: center;
     margin: 0.5rem auto;
@@ -29,9 +28,9 @@
 
 .po_item .content {
     position: absolute;
-    
     background: var(--overlay-color);
     z-index: 1;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -47,6 +46,7 @@
     opacity: 0;
     transition-delay: 1s;
     transition: 0.3s ease;
+    padding: 0 10px;
     font-size: 20px;
 }
 
@@ -55,8 +55,8 @@
 }
 
 .po_item:hover .content {
-    height: calc(100% - 30px);
-    width: calc(100% - 30px);
+    height: calc(105% - 30px);
+    width: calc(105% - 30px);
     opacity: 1;
 }
 
