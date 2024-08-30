@@ -93,6 +93,11 @@ const dataportfolio = [{
         description: " Indulge your senses in our visually captivating restaurant website. Immerse yourself in a seamless blend of stunning design and user-friendly interface, enhancing your dining experience even before you arrive.",
         link: "https://github.com/rehanshaikh55/hostpot-restaurant",
     },
+    {
+        img: "https://i.ibb.co/VxRmywD/screencapture-glintglam-vercel-app-2024-08-30-15-30-22.png",
+        description: "Glint Glam is a MERN-based e-commerce site offering a seamless, secure online shopping experience with dynamic product management and responsive design.",
+        link: "https://glintglam.vercel.app/",
+    },
     
   
 ];
