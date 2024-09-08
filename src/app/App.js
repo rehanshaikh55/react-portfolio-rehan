@@ -10,6 +10,7 @@ import Headermain from "../header";
 import AnimatedCursor  from "../hooks/AnimatedCursor";
 import "./App.css";
 import { Analytics } from "@vercel/analytics/react"
+import { Helmet } from "react-helmet";
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
@@ -23,6 +24,12 @@ const ScrollToTop = withRouter(_ScrollToTop);
 export default function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
+          <Helmet>
+        <title>Rehan's Portfolio | React Developer</title>
+        <meta name="description" content="Portfolio of Rehan, a skilled React Developer with experience in building e-commerce and business websites." />
+        <meta name="keywords" content="React Developer, Web Developer, Full-stack Developer, MERN Stack, Portfolio" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <div className="cursor__dot">
         <AnimatedCursor
           innerSize={15}
