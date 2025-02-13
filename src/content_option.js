@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "Results-oriented Full Stack Developer with a proven track record of delivering high-quality, end-to-end web solutions. Equipped with acomprehensive skill set spanning front-end and back-end technologies"
+    aboutme: "Detail-oriented QA Engineer with expertise in manual and automation testing using Selenium and Appium. Improved testing efficiency at DotPitch Technologies and ensured software quality through strategic test plans and API testing."
 };
 const worktimeline = [{
         jobtitle: "QA Engineer (Manual + Automation)",
@@ -25,9 +25,9 @@ const worktimeline = [{
         date: "2025",
     },
     {
-        jobtitle: "Mobile App Developing",
-        where: "",
-        date: "2019",
+        jobtitle: "QA Intern",
+        where: "Dot IT Services",
+        date: "2024",
     },
  
 ];
@@ -55,16 +55,16 @@ const skills = [{
 ];
 
 const services = [{
-        title: "React.Js Website",
-        description: "Experienced React.js Developer with a proven track record of delivering high-quality web services. Proficient in utilizing React.js to create dynamic and responsive user interfaces.",
+        title: "Software Testing",
+        description: "• Conducted manual and automation testing using tools like Selenium, Appium, JMeter, TestNG.",
     },
     {
-        title: "Mobile Apps",
-        description: "Passionate React Native developer with a proven track record of creating dynamic and user-friendly mobile applications. Skilled in crafting responsive and efficient UI components, integrating APIs, and optimizing performance.",
+        title: "Mobile App Testing",
+        description: "• Conducted manual and automation testing using tools like Selenium, Appium, JMeter, TestNG.",
     },
     {
-        title: "Wordpress Design",
-        description: "Developing different unique and creative designs in wordpress and using different plugins",
+        title: "API Testing",
+        description: "Performed API testing using Postman and implemented automation scripts with Rest Assured.",
     },
 ];
 

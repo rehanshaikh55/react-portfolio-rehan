@@ -65,7 +65,7 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <a href="https://drive.google.com/file/d/19AgYLBmDDi8fqkCICVYysgi61rHRmj8U/view?usp=sharing"  id="button_a" >
+                  <a target="_blank" href="https://drive.google.com/file/d/19AgYLBmDDi8fqkCICVYysgi61rHRmj8U/view?usp=sharing"  id="button_a" >
                     <div id="button_h" className="ac_btn2 btn">
                        My Resume
                       <div className="ring one"></div>
