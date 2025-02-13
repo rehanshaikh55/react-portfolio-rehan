@@ -1,15 +1,15 @@
 const logotext = "REHAN";
 const meta = {
     title: "Rehan",
-    description: "I'am a Full stack developer ",
+    description: "I'am a QA Engineer ",
 };
 
 const introdata = {
     title: "I’m Rehan A Creative",
     animated: {
-        first: "Full-Stack Developer",
-        second: "Mobile App Developer",
-        third: "Front-end Expert",
+        first: "QA Engineer",
+        second: "Full Stack Developer",
+        third: "Digital Expert",
     },
     description: "  I bring a strong technical foundation and a passion for leadership.",
     your_img_url: "https://i.postimg.cc/mZ3zmCY0/1675155732143.jpg",
@@ -20,9 +20,9 @@ const dataabout = {
     aboutme: "Results-oriented Full Stack Developer with a proven track record of delivering high-quality, end-to-end web solutions. Equipped with acomprehensive skill set spanning front-end and back-end technologies"
 };
 const worktimeline = [{
-        jobtitle: "Full-Stack developing",
-        where: "",
-        date: "2023",
+        jobtitle: "QA Engineer (Manual + Automation)",
+        where: "DotPitch Technologies",
+        date: "2025",
     },
     {
         jobtitle: "Mobile App Developing",
@@ -33,24 +33,24 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "HTML,CSS,Javascript",
+        name: "Selenium,Cypress,Playwright",
         value: 90,
     },
     {
-        name: "React.js",
+        name: "Java",
         value: 80,
     },
     {
-        name: "React-native",
+        name: "Pythpn",
         value: 80,
     },
     {
-        name: "Node.js",
-        value: 50,
+        name: "Javascript",
+        value: 80,
     },
     {
-        name: "Wordpress",
-        value: 75,
+        name: "TestNG,PyTest,JUnit,API Testing",
+        value: 90,
     },
 ];
 
